@@ -555,3 +555,13 @@ body.admin .card.is-missing .placeholder-admin { display: inline-block; }
   }
   .card.reveal { opacity: 1; transform: none; }
 }
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--gold-light);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color .2s;
+}
+.back-link:hover { border-color: var(--gold); }
