@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planes de Landing Page | JMC Diseños</title>
+  <meta name="description" content="Planes de diseño de landing pages con mantenimiento anual o solo web. Diseño, edición y publicación para que recibas consultas por WhatsApp.">
+  <meta name="theme-color" content="#030816">
+  <meta property="og:title" content="Planes de Landing Page | JMC Diseños">
+  <meta property="og:description" content="Tu negocio merece una web que lo represente. Elegí tu plan con mantenimiento anual o Solo Web.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Ajustes propios de planes.html (no requieren cambios en style.css) */
+    .plan { text-align: left; }
+    .plan.solo { text-align: left; }
+    .plan.solo .checks, .plan.solo .txt, .plan.solo .rows, .plan.solo .note { text-align: left; }
+
+    .promo-banner {
+      display: flex; align-items: center; justify-content: center; gap: 16px;
+      max-width: 900px; margin: 0 auto 34px; padding: 18px 22px; border-radius: 20px; text-align: left;
+      background: linear-gradient(135deg, rgba(41,211,255,0.28), rgba(47,123,255,0.4) 55%, rgba(124,77,255,0.4));
+      border: 1.5px solid var(--cyan);
+      box-shadow: 0 0 34px rgba(41,211,255,0.4), inset 0 0 24px rgba(41,211,255,0.1);
+      animation: promoGlow 2.8s ease-in-out infinite;
+    }
+    .promo-banner .pb-ico { flex: 0 0 auto; width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; font-size: 1.7rem; background: rgba(3,8,22,0.55); border: 1.5px solid var(--line); }
+    .promo-banner strong { display: block; font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.1rem, 3.6vw, 1.45rem); line-height: 1.2; }
+    .promo-banner span:not(.pb-ico) { display: block; margin-top: 4px; font-size: 0.88rem; color: #d6e4ff; }
+    @keyframes promoGlow { 50% { box-shadow: 0 0 52px rgba(41,211,255,0.65), inset 0 0 24px rgba(41,211,255,0.16); } }
+
+    .offer-badge {
+      display: inline-block; margin-bottom: 10px; padding: 6px 14px; border-radius: 999px;
+      font-size: 0.8rem; font-weight: 700; color: #fff; background: var(--grad);
+      box-shadow: 0 6px 18px rgba(47,123,255,0.5);
+    }
+    .price .after { margin-top: 8px; font-size: 0.86rem; color: var(--muted); }
+    .rows .last { border-bottom: none; }
+
+    @media (prefers-reduced-motion: reduce) { .promo-banner { animation: none; } }
+  </style>
+</head>
+<body>
+  <main class="container wide">
+
+    <div class="topbar split">
+      <a class="back" href="index.html">
+        <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg> Volver al inicio
+      </a>
+      <a class="visit inline" href="https://wa.me/5493522454829?text=Hola%2C%20JMC%20Dise%C3%B1os.%20Quiero%20contratar%20mi%20landing.%20Mi%20actividad%20es%20%5BCOMPLETAR%5D." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> Contratar por WhatsApp</a>
+    </div>
+
+    <header class="hero" id="inicio">
+      <span class="eyebrow">JMC Diseños · Landing pages</span>
+      <h1>Tu negocio merece una <span>web que lo represente</span></h1>
+      <p>Diseñamos, editamos y publicamos tu landing page para que presentes tus servicios y recibas consultas por WhatsApp. Elegí un plan con mantenimiento anual o contratá solamente el diseño y la publicación.</p>
+      <p class="lead">Hasta cinco secciones, textos redactados a partir de tu información y tres rondas iniciales de correcciones. Vos aportás las imágenes; nosotros damos forma a tu propuesta.</p>
+      <div class="cta-row">
+        <a class="visit" href="https://wa.me/5493522454829?text=Hola%2C%20JMC%20Dise%C3%B1os.%20Quiero%20contratar%20mi%20landing.%20Mi%20actividad%20es%20%5BCOMPLETAR%5D." target="_blank" rel="noopener">Quiero contratar mi landing
+          <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></a>
+      </div>
+    </header>
+
+    <nav class="chips" aria-label="Secciones de la página">
+      <a class="chip" href="#incluye">Qué incluye</a>
+      <a class="chip" href="#planes">Planes</a>
+      <a class="chip" href="#como">Cómo trabajamos</a>
+      <a class="chip" href="#faq">Preguntas frecuentes</a>
+    </nav>
+
+    <section class="section" id="incluye">
+      <div class="section-head">
+        <h2>Qué incluye <span>el diseño</span></h2>
+        <p>Todo lo necesario para tener tu landing lista y funcionando.</p>
+      </div>
+      <div class="feat-grid">
+        <div class="feat"><div class="ico-badge" aria-hidden="true">📑</div><div><h3>Hasta cinco secciones</h3><p>Una landing completa para presentar tu actividad.</p></div></div>
+        <div class="feat"><div class="ico-badge" aria-hidden="true">✍️</div><div><h3>Textos redactados</h3><p>Los redacta JMC Diseños a partir de la información que nos pasás.</p></div></div>
+        <div class="feat"><div class="ico-badge" aria-hidden="true">🖼️</div><div><h3>Tus imágenes</h3><p>Vos aportás las imágenes; nosotros damos forma a tu propuesta.</p></div></div>
+        <div class="feat"><div class="ico-badge" aria-hidden="true">💬</div><div><h3>Botón de WhatsApp</h3><p>Para que tus clientes te consulten con un toque.</p></div></div>
+        <div class="feat"><div class="ico-badge" aria-hidden="true">📍</div><div><h3>Mapa de Google Maps</h3><p>Insertado en la web para que te encuentren fácil.</p></div></div>
+        <div class="feat"><div class="ico-badge" aria-hidden="true">🔁</div><div><h3>Tres rondas de correcciones</h3><p>Rondas iniciales para dejar todo como lo imaginaste.</p></div></div>
+        <div class="feat"><div class="ico-badge" aria-hidden="true">🤖</div><div><h3>Desarrollo con IA</h3><p>Asistencia de IA y preparación para publicar en Cloudflare, según la solución acordada.</p></div></div>
+        <div class="feat"><div class="ico-badge" aria-hidden="true">🚫</div><div><h3>No incluye</h3><p>Formulario de contacto, hosting, dominio ni gestión de la ficha de Google (se cotizan aparte).</p></div></div>
+      </div>
+      <p class="note"><strong>Importante:</strong> hosting y dominio personalizado no están incluidos: se contratan a cuenta del cliente. La creación, verificación, gestión u optimización de la ficha de Google se cotiza aparte. Las funciones o trabajos adicionales se presupuestan aparte.</p>
+    </section>
+
+    <section class="section" id="planes">
+      <div class="section-head">
+        <h2>Planes con <span>mantenimiento anual</span></h2>
+        <p>Diseño de pago único más doce mensualidades de mantenimiento. Al contratar abonás el 50% del diseño para comenzar. Al publicar abonás el 50% restante más la primera mensualidad. Los precios del primer año no tienen ajustes adicionales: se aplica el precio promocional los dos primeros meses y la tarifa habitual publicada desde el tercero.</p>
+      </div>
+      <div class="promo-banner" role="note">
+        <span class="pb-ico" aria-hidden="true">🔥</span>
+        <div>
+          <strong>Promoción −30% los primeros 2 meses de mantenimiento</strong>
+          <span>Vale para los planes Básico, Intermedio y Premium. Los importes publicados en cada plan son los precios finales de cada período.</span>
+        </div>
+      </div>
+      <div class="plans">
+      <article class="plan">
+        
+        <div class="plan-head">
+          <div class="plan-icon" aria-hidden="true">🛡️</div>
+          <div><h3>Plan Básico</h3><p class="design">Diseño por única vez: $55.000</p></div>
+        </div>
+        <div class="price">
+          <span class="offer-badge">🔥 Promoción −30% · primeros 2 meses</span>
+          <small>Por mes durante los meses 1 y 2</small>
+          <strong>$45.000 <em>/ mes</em></strong>
+          <div class="after">Del mes 3 al 12: $60.000 por mes</div>
+        </div>
+        <dl class="rows">
+          <div><dt>Diseño (pago único)</dt><dd>$55.000</dd></div>
+          <div><dt>Anticipo 50% para comenzar</dt><dd>$27.500</dd></div>
+          <div class="last"><dt>Al publicar (saldo + 1.ª mensualidad)</dt><dd>$72.500</dd></div>
+        </dl>
+        <ul class="checks"><li>Actualizaciones técnicas del sitio.</li><li>Copias de seguridad mensuales.</li><li>Control básico de seguridad.</li><li>Soporte técnico general.</li></ul>
+        <a class="visit" href="https://wa.me/5493522454829?text=Hola%2C%20JMC%20Dise%C3%B1os.%20Quiero%20contratar%20el%20Plan%20B%C3%A1sico.%20Mi%20actividad%20es%20%5BCOMPLETAR%5D.%20Quisiera%20recibir%20el%20contrato%20y%20los%20datos%20para%20abonar%20el%20anticipo%20del%20dise%C3%B1o." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> Contratar Plan Básico</a>
+      </article>
+      <article class="plan featured">
+        
+        <div class="plan-head">
+          <div class="plan-icon" aria-hidden="true">⚙️</div>
+          <div><h3>Plan Intermedio</h3><p class="design">Diseño por única vez: $45.000</p></div>
+        </div>
+        <div class="price">
+          <span class="offer-badge">🔥 Promoción −30% · primeros 2 meses</span>
+          <small>Por mes durante los meses 1 y 2</small>
+          <strong>$65.000 <em>/ mes</em></strong>
+          <div class="after">Del mes 3 al 12: $88.000 por mes</div>
+        </div>
+        <dl class="rows">
+          <div><dt>Diseño (pago único)</dt><dd>$45.000</dd></div>
+          <div><dt>Anticipo 50% para comenzar</dt><dd>$22.500</dd></div>
+          <div class="last"><dt>Al publicar (saldo + 1.ª mensualidad)</dt><dd>$87.500</dd></div>
+        </dl>
+        <ul class="checks"><li>Todo lo del Básico.</li><li>Hasta seis actualizaciones de contenido mensuales.</li><li>Carga de comunicados y avisos dentro del cupo.</li><li>Ajustes menores de diseño.</li><li>Soporte por WhatsApp.</li></ul>
+        <a class="visit" href="https://wa.me/5493522454829?text=Hola%2C%20JMC%20Dise%C3%B1os.%20Quiero%20contratar%20el%20Plan%20Intermedio.%20Mi%20actividad%20es%20%5BCOMPLETAR%5D.%20Quisiera%20recibir%20el%20contrato%20y%20los%20datos%20para%20abonar%20el%20anticipo%20del%20dise%C3%B1o." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> Contratar Plan Intermedio</a>
+      </article>
+      <article class="plan">
+        <span class="flag">Más completo</span>
+        <div class="plan-head">
+          <div class="plan-icon" aria-hidden="true">👑</div>
+          <div><h3>Plan Premium</h3><p class="design">Diseño por única vez: $35.000</p></div>
+        </div>
+        <div class="price">
+          <span class="offer-badge">🔥 Promoción −30% · primeros 2 meses</span>
+          <small>Por mes durante los meses 1 y 2</small>
+          <strong>$105.000 <em>/ mes</em></strong>
+          <div class="after">Del mes 3 al 12: $140.000 por mes</div>
+        </div>
+        <dl class="rows">
+          <div><dt>Diseño (pago único)</dt><dd>$35.000</dd></div>
+          <div><dt>Anticipo 50% para comenzar</dt><dd>$17.500</dd></div>
+          <div class="last"><dt>Al publicar (saldo + 1.ª mensualidad)</dt><dd>$122.500</dd></div>
+        </dl>
+        <ul class="checks"><li>Todo lo del Intermedio.</li><li>Hasta doce intervenciones mensuales en total, en reemplazo del cupo de seis.</li><li>Optimización de velocidad.</li><li>SEO básico institucional.</li><li>Seguimiento del funcionamiento y disponibilidad del sitio.</li><li>Soporte prioritario dentro del horario de atención.</li></ul>
+        <a class="visit" href="https://wa.me/5493522454829?text=Hola%2C%20JMC%20Dise%C3%B1os.%20Quiero%20contratar%20el%20Plan%20Premium.%20Mi%20actividad%20es%20%5BCOMPLETAR%5D.%20Quisiera%20recibir%20el%20contrato%20y%20los%20datos%20para%20abonar%20el%20anticipo%20del%20dise%C3%B1o." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> Contratar Plan Premium</a>
+      </article>
+      </div>
+
+      <p class="note"><strong>Aclaración de la oferta:</strong> "−30% dos meses" es la denominación comercial de la promoción y no coincide exactamente con el porcentaje de reducción de todos los planes. Los precios finales aplicables son los importes publicados para cada período.</p>
+      <p class="note"><strong>Intervenciones:</strong> una intervención es una solicitud consolidada de modificación de contenido o de un elemento existente, sin crear funciones nuevas. Los cupos no se acumulan entre meses. Los rediseños y adicionales se cotizan previamente. El seguimiento de disponibilidad no equivale a una guardia humana 24/7 ni garantiza ausencia total de caídas.</p>
+
+      <article class="plan solo featured">
+        <div class="col-a">
+          <div class="plan-head">
+            <div class="plan-icon" aria-hidden="true">🚀</div>
+            <div><h3>Plan Solo Web</h3><p class="design">Sin mantenimiento</p></div>
+          </div>
+          <p class="txt">Tu landing lista para publicar, sin contratar mantenimiento mensual.</p>
+          <div class="price">
+            <small>Precio final</small>
+            <strong>$245.000</strong>
+          </div>
+          <dl class="rows">
+            <div><dt>Anticipo 50% al contratar</dt><dd>$122.500</dd></div>
+            <div class="total"><dt>Saldo 50% al aprobar y publicar</dt><dd>$122.500</dd></div>
+          </dl>
+        </div>
+        <div class="col-b">
+          <ul class="checks">
+            <li>Diseño, edición y puesta a punto de una landing de hasta cinco secciones.</li>
+            <li>Redacción de textos a partir de tu información.</li>
+            <li>Incorporación de tus imágenes, botón de WhatsApp y mapa de Google Maps.</li>
+            <li>Tres rondas iniciales de correcciones.</li>
+            <li>Plazo de hasta 48 horas desde que recibimos todo el material y el anticipo para preparar la web para revisión y puesta a punto. La publicación dentro de ese plazo requiere tu aprobación y los accesos disponibles; los tiempos de respuesta y las correcciones pendientes pueden desplazarla.</li>
+            <li>Al terminar, recibís los archivos y accesos de tu proyecto para administrarlo por tu cuenta.</li>
+          </ul>
+          <p class="note" style="margin:0 0 20px;max-width:none">Hosting y dominio no incluidos: se agregan a cuenta del cliente, según la alternativa elegida. No incluye mantenimiento mensual, seguimiento continuo, copias periódicas ni actualizaciones posteriores. Las intervenciones futuras se presupuestan a los precios de mantenimiento web vigentes al solicitarlas. Esto no limita los derechos que correspondan por la prestación inicial.</p>
+          <a class="visit" href="https://wa.me/5493522454829?text=Hola%2C%20JMC%20Dise%C3%B1os.%20Quiero%20contratar%20Solo%20Web%2C%20sin%20mantenimiento%2C%20por%20%24245.000.%20Mi%20actividad%20es%20%5BCOMPLETAR%5D.%20Quisiera%20recibir%20el%20contrato%20y%20los%20datos%20para%20abonar%20el%20anticipo%20de%20%24122.500." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> Contratar Solo Web</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="como">
+      <div class="section-head">
+        <h2>Cómo <span>trabajamos</span></h2>
+        <p>Un proceso simple, de la primera consulta a la publicación.</p>
+      </div>
+      <div class="steps">
+        <div class="step">Elegís tu plan y nos escribís por WhatsApp para contratar.</div>
+        <div class="step">Confirmamos el alcance y el contrato. Abonás el 50% del diseño por transferencia, efectivo o link de pago, como prefieras.</div>
+        <div class="step">Nos enviás la información completa, imágenes y datos de contacto.</div>
+        <div class="step">Preparamos tu landing para revisión: 24 horas con planes de mantenimiento o hasta 48 horas en Solo Web, desde que contamos con todo el material y el anticipo.</div>
+        <div class="step">Revisás y aprobás el contenido. Tenés tres rondas iniciales de correcciones.</div>
+        <div class="step">Coordinamos la publicación y abonás el saldo. Si elegiste mantenimiento, también abonás la primera mensualidad y comienza el período anual. Si elegiste Solo Web, recibís los archivos y accesos al concluir.</div>
+      </div>
+    </section>
+
+    <section class="section" id="para-quien">
+      <div class="section-head"><h2>Para <span>quién es</span></h2></div>
+      <div class="who">
+        <p>Para comercios, profesionales, emprendimientos, instituciones y organizaciones que necesitan presentar su actividad y facilitar el contacto. Elegí mantenimiento anual si querés acompañamiento; elegí Solo Web si preferís administrar tu sitio por tu cuenta.</p>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-head"><h2>Preguntas <span>frecuentes</span></h2></div>
+      <div class="faq">
+        <details><summary>¿El anticipo es sobre todo el año?</summary><div class="answer">No. Es el 50% del precio del diseño del plan elegido. No se calcula sobre las doce mensualidades. En Solo Web es el 50% de $245.000.</div></details>
+        <details><summary>¿Cómo puedo abonar el anticipo?</summary><div class="answer">Por transferencia, efectivo o link de pago, según prefieras.</div></details>
+        <details><summary>¿Cuándo pago el saldo?</summary><div class="answer">Al aprobar el trabajo y coordinar su publicación, a más tardar al publicarse. En planes con mantenimiento se agrega la primera mensualidad.</div></details>
+        <details><summary>¿Cuándo se paga el mantenimiento?</summary><div class="answer">La primera mensualidad se abona por anticipado al publicar. Las once restantes se pagan del 1 al 5 de cada mes, por anticipado al próximo período mensual de servicio. Si la web se publica después del día 5, la primera mensualidad se cobra excepcionalmente al publicar. El contrato detalla los períodos para evitar superposiciones: son doce mensualidades, no trece.</div></details>
+        <details><summary>¿El mantenimiento se cobra a mes vencido?</summary><div class="answer">No. Siempre se paga anticipadamente para el período de servicio correspondiente.</div></details>
+        <details><summary>¿Los precios aumentan durante el primer año?</summary><div class="answer">En planes con mantenimiento, los meses 1 y 2 tienen el importe promocional y desde el mes 3 se aplica la tarifa habitual publicada. No hay ajustes adicionales durante el primer año.</div></details>
+        <details><summary>¿Quién prepara los textos y las imágenes?</summary><div class="answer">Nosotros redactamos los textos con tu información. Vos aportás las imágenes y sus permisos de uso. Antes de publicar, revisás y aprobás el contenido.</div></details>
+        <details><summary>¿Incluye hosting y dominio?</summary><div class="answer">No. En todos los planes estos costos quedan a tu cargo y se acuerdan según la alternativa elegida.</div></details>
+        <details><summary>¿Incluye mi ficha de Google?</summary><div class="answer">La landing incluye el mapa insertado. La gestión de la ficha se contrata como adicional y no garantiza posiciones en buscadores.</div></details>
+        <details><summary>¿Qué pasa cuando termina el mantenimiento anual?</summary><div class="answer">Podés aceptar expresamente otro año, con sus condiciones y precios informados, o finalizar el mantenimiento. No hay renovación automática. Al terminar el año te entregamos los archivos y accesos de tu proyecto para que puedas mantenerlo por tu cuenta o con otro profesional.</div></details>
+        <details><summary>¿Y si necesito un cambio después del año?</summary><div class="answer">Si no renovaste, cotizamos la intervención según los precios de mantenimiento web vigentes cuando la solicites. Solo avanzamos con tu aceptación del presupuesto.</div></details>
+        <details><summary>¿Puedo pedir la baja antes de completar el año?</summary><div class="answer">Podés solicitarla por nuestros canales. El contrato detalla el compromiso anual y la liquidación que corresponda, sujeta a la normativa y a tus derechos como cliente.</div></details>
+        <details><summary>¿Solo Web tiene mensualidades?</summary><div class="answer">No. Su precio final es $245.000 por el trabajo contratado. El dominio, alojamiento y las intervenciones futuras se contratan aparte.</div></details>
+        <details><summary>¿Cuál es el horario de atención?</summary><div class="answer">Lunes a jueves, de 8 a 13 y de 16 a 19 horas, hora argentina.</div></details>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="cta wide-cta">
+        <h2>Tu próxima web empieza con un mensaje</h2>
+        <p>Elegí el plan que mejor se adapte a tu actividad y contratá con JMC Diseños.</p>
+        <a class="visit" href="https://wa.me/5493522454829?text=Hola%2C%20JMC%20Dise%C3%B1os.%20Quiero%20contratar%20mi%20landing.%20Mi%20actividad%20es%20%5BCOMPLETAR%5D." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> Contratar mi landing por WhatsApp</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <h3>JMC Diseños</h3>
+      <p class="owner">Juan Martin Cabral · Atención: lunes a jueves de 8 a 13 y de 16 a 19, hora argentina.</p>
+      <div class="foot-links">
+        <a class="chip" href="https://www.jmcdiseños.com" target="_blank" rel="noopener">🌐 Web</a>
+        <a class="chip" href="index.html">💼 Portafolio</a>
+        <a class="chip" href="mailto:impresiones.rioseco@gmail.com">✉️ impresiones.rioseco@gmail.com</a>
+        <a class="chip" href="https://wa.me/5493522454829" target="_blank" rel="noopener">💬 WhatsApp 3522-454829</a>
+      </div>
+      <p class="legal">Todos los precios son finales en pesos argentinos. Landing de hasta cinco secciones. Anticipo del 50% del diseño al contratar; saldo al publicar. Hosting, dominio y adicionales no incluidos. Los planes Básico, Intermedio y Premium incluyen contratación anual de mantenimiento con pagos anticipados y renovación solo por aceptación expresa. Solo Web no incluye mantenimiento.</p>
+      <p class="copy">© 2026 Martin Cabral · Diseño web con IA / y JMC Diseños</p>
+    </footer>
+
+  </main>
+</body>
+</html>
